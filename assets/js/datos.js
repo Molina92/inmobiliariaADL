@@ -7,8 +7,8 @@ const PropiedadesEnVenta = [
         rooms: 4,
         bathroom: 4,
         price: '5.000',
-        smoke: 'No se permite fumar',
-        pets: 'No se permiten mascotas'
+        smoke: false,
+        pets: false
     },
     {
         image: 'https://cdn.bioguia.com/embed/3d0fb0142790e6b90664042cbafcb1581427139/furgoneta.jpg',
@@ -18,8 +18,8 @@ const PropiedadesEnVenta = [
         rooms: 2,
         bathroom: 1,
         price: '2.500',
-        smoke: 'Permitido fumar',
-        pets: 'Mascotas permitidas'
+        smoke: true,
+        pets: true
     },
     {
         image: 'https://resizer.glanacion.com/resizer/fhK-tSVag_8UGJjPMgWrspslPoU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CUXVMXQE4JD5XIXX4X3PDZAVMY.jpg',
@@ -29,8 +29,8 @@ const PropiedadesEnVenta = [
         rooms: 3,
         bathroom: 3,
         price: '4.500',
-        smoke: 'No se permite fumar',
-        pets: 'Mascotas permitidas'
+        smoke: false,
+        pets: true
     },
     {
         image: 'https://images.unsplash.com/photo-1594906318352-e9fc92d45d25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
@@ -40,8 +40,8 @@ const PropiedadesEnVenta = [
         rooms: 4,
         bathroom: 3,
         price: '4.200',
-        smoke: 'Permitido fumar',
-        pets: 'Mascotas permitidas'
+        smoke: true,
+        pets: true
     }
 ]
 
@@ -54,8 +54,8 @@ const PropiedadesEnAlquiler = [
         rooms: 2,
         bathroom: 2,
         price: '2.000',
-        smoke: 'No se permite fumar',
-        pets: 'Mascotas permitidas'
+        smoke: false,
+        pets: true
     },
     {
         image: 'https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
@@ -65,8 +65,8 @@ const PropiedadesEnAlquiler = [
         rooms: 3,
         bathroom: 3,
         price: '2.500',
-        smoke: 'Permitido fumar',
-        pets: 'Mascotas permitidas'
+        smoke: true,
+        pets: true
     },
     {
         image: 'https://images.unsplash.com/photo-1567496898669-ee935f5f647a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbmRvfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60',
@@ -76,8 +76,8 @@ const PropiedadesEnAlquiler = [
         rooms: 2,
         bathroom: 2,
         price: '2.200',
-        smoke: 'No se permite fumar',
-        pets: 'No se permiten mascotas'
+        smoke: false,
+        pets: false
     },
     {
         image: 'https://images.unsplash.com/photo-1582391524859-49dd77afac07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
@@ -87,8 +87,8 @@ const PropiedadesEnAlquiler = [
         rooms: 1,
         bathroom: 1,
         price: '1.800',
-        smoke: 'Permitido fumar',
-        pets: 'Mascotas permitidas'
+        smoke: true,
+        pets: true
     }
 ]
 

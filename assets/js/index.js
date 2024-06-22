@@ -1,11 +1,6 @@
 const venta_container = document.querySelector('#venta_container')
+const alquiler_container = document.querySelector('#alquiler_container')
 let ventaTemplate = ''
-
-//DEFINICION DEL HTML
-venta_container.innerHTML = /*html*/`
-    <h2>Propiedades en venta</h2>
-    <div class="row">
-`
 
 for (let i = 0; i < 3; i++) {
     const venta = PropiedadesEnVenta[i]
@@ -14,30 +9,45 @@ for (let i = 0; i < 3; i++) {
         <div class="col-md-4 mb-4">
             <div class="card">
               <img
-                src="${PropiedadesEnVenta.image}"
+                src="${venta.image}"
                 class="card-img-top"
                 alt="Imagen del departamento"
               />
               <div class="card-body">
-                <h5 class="card-title"></h5>
-                <p class="card-text"></p>
+                <h5 class="card-title">${venta.title}</h5>
+                <p class="card-text">${venta.description}</p>
                 <p>
-                  <i class="fas fa-map-marker-alt"></i> 123 Luxury Lane,
-                  Prestige Suburb, CA 45678
+                  <i class="fas fa-map-marker-alt"></i> ${venta.direction}
                 </p>
                 <p>
-                  <i class="fas fa-bed"></i> 4 Habitaciones |
-                  <i class="fas fa-bath"></i> 4 Baños
+                  <i class="fas fa-bed"></i> ${venta.rooms} |
+                  <i class="fas fa-bath"></i> ${venta.bathroom}
                 </p>
-                <p><i class="fas fa-dollar-sign"></i> 5.000</p>
-                <p class="text-danger">
-                  <i class="fas fa-smoking-ban"></i> No se permite fumar
-                </p>
-                <p class="text-danger">
-                  <i class="fa-solid fa-ban"></i> No se permiten mascotas
-                </p>
-              </div>
+                <p><i class="fas fa-dollar-sign"></i> ${venta.price}</p>
+                
+                ${venta.smoke === true ? 
+                    `<p class="text-success">
+                      <i class="fas fa-smoking"></i> Permitido fumar
+                    </p>` 
+                    : 
+                    `<p class="text-danger">
+                      <i class="fas fa-smoking-ban"></i> No se permite fumar
+                    </p>`
+                }
+
+                ${venta.pets === true ? 
+                    `<p class="text-success">
+                      <i class="fas fa-paw"></i> Mascotas permitidas
+                    </p>` 
+                    : 
+                    `<p class="text-danger">
+                      <i class="fas fa-ban"></i> No se permiten mascotas
+                    </p>`
+                }
+            </div>
             </div>
           </div>
     `
 }
+
+venta_container.innerHTML = ventaTemplate
