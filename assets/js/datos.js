@@ -1,6 +1,6 @@
 const PropiedadesEnVenta = [
     {
-        image: 'https://fotos.perfil.com/2018/09/21/trim/950/534/nueva-york-09212018-366965.jpg',
+        image: './assets/img/venta1.jpg',
         title: 'Apartamento de lujo en zona exclusiva',
         description: 'Este apartamento de lujo está ubicado en una exclusiva zona residencial',
         direction: '123 Luxury Lane, Prestige Suburb, CA 45678',
@@ -11,7 +11,7 @@ const PropiedadesEnVenta = [
         pets: false
     },
     {
-        image: 'https://cdn.bioguia.com/embed/3d0fb0142790e6b90664042cbafcb1581427139/furgoneta.jpg',
+        image: './assets/img/venta2.jpg',
         title: 'Apartamento acogedor en la montaña',
         description: 'Este apartamento acogedor está situado en lo alto de una montaña con impresionantes vistas',
         direction: '789 Mountain Road, Summit Peaks, CA 23456',
@@ -22,7 +22,7 @@ const PropiedadesEnVenta = [
         pets: true
     },
     {
-        image: 'https://resizer.glanacion.com/resizer/fhK-tSVag_8UGJjPMgWrspslPoU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CUXVMXQE4JD5XIXX4X3PDZAVMY.jpg',
+        image: './assets/img/venta3.jpg',
         title: 'Penthouse de lujo con terraza panorámica',
         description: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares',
         direction: '567 Skyline Avenue, Skyview City, CA 56789',
@@ -33,7 +33,7 @@ const PropiedadesEnVenta = [
         pets: true
     },
     {
-        image: 'https://images.unsplash.com/photo-1594906318352-e9fc92d45d25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+        image: './assets/img/venta4.jpg',
         title: 'Casa de campo con piscina privada',
         description: 'Esta encantadora casa de campo ofrece una piscina privada y vistas panorámicas al campo',
         direction: '789 Countryside Road, Serenity Valley, CA 78901',
@@ -47,7 +47,7 @@ const PropiedadesEnVenta = [
 
 const PropiedadesEnAlquiler = [
     {
-        image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBhcnRtZW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60',
+        image: './assets/img/alquiler1.jpg',
         title: 'Apartamento en el centro de la ciudad',
         description: 'Este apartamento de 2 habitaciones está ubicado en el corazón de la ciudad, cerca de todo.',
         direction: '123 Main Street, Anytown, CA 91234',
@@ -58,7 +58,7 @@ const PropiedadesEnAlquiler = [
         pets: true
     },
     {
-        image: 'https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+        image: './assets/img/alquiler2.jpg',
         title: 'Apartamento luminoso con vista al mar',
         description: 'Este hermoso apartamento ofrece una vista impresionante al mar',
         direction: '456 Ocean Avenue, Seaside Town, CA 56789',
@@ -69,7 +69,7 @@ const PropiedadesEnAlquiler = [
         pets: true
     },
     {
-        image: 'https://images.unsplash.com/photo-1567496898669-ee935f5f647a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbmRvfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60',
+        image: './assets/img/alquiler3.jpg',
         title: 'Condominio moderno en zona residencial',
         description: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial',
         direction: '123 Main Street, Anytown, CA 91234',
@@ -80,7 +80,7 @@ const PropiedadesEnAlquiler = [
         pets: false
     },
     {
-        image: 'https://images.unsplash.com/photo-1582391524859-49dd77afac07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+        image: './assets/img/alquiler4.jpg',
         title: 'Loft industrial en el corazón de la ciudad',
         description: 'Moderno loft industrial ubicado en el centro de la ciudad, ideal para quienes buscan un estilo de vida urbano',
         direction: '456 Industrial Avenue, Downtown, NY 56789',
